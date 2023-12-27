@@ -9,7 +9,7 @@ import Settings from './pages/settings/Settings'
 
 
 function App() {
-  const user = false;
+  const user = true;
   return (
     <Router>
       <Routes>
