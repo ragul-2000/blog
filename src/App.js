@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from "./pages/home/Home";
 import Register from './pages/register/Register';
 import Login from './pages/login/Login';
@@ -9,7 +9,7 @@ import Settings from './pages/settings/Settings'
 
 
 function App() {
-  const user = false;
+  const user = true;
   return (
     <Router>
       <Routes>
